@@ -71,6 +71,16 @@ header{
     padding: 5px;
     min-height: 200px;
     background: #E2A05B;
+    display: flex;
+    flex-flow: row;
+}
+
+header > #WebpageTitle{
+    order: 1;
+}
+
+header > #WebpageLogo{
+    order: 2;
 }
 
 nav{
